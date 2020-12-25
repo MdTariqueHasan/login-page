@@ -1,0 +1,115 @@
+body{
+    background-image: url(pic4.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: transparent;
+    color: aliceblue;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    right: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px black;
+    
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+    font-family: cursive;
+    padding-left: 60px;
+    
+} 
+
+.loginbox p{
+    margin: 0;
+    padding-left: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.loginbox input{
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid grey;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: grey;
+    font-size: 13px;
+    
+}
+
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+.loginbox a{
+    
+    font-size: 13px;
+    line-height: 20px;
+    color: grey;
+    padding-left: 20px;
+}
+
+.loginbox a:hover
+{
+    color: red;
+}
+
+.loginbox input[type="checkbox"]{
+    color: white;
+    margin-right: 100px;
+    cursor: pointer;
+}
+.loginbox span{
+    color: white;
+    padding-left: 90px;
+    font-size: 13px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
